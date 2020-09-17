@@ -1,0 +1,79 @@
+@media (min-width: 500px) {
+    #container-popup-info > #box-info {
+        height: 250px;
+        padding: 0 50px;
+    }
+
+    #box-info > #btn-box-info {
+        height: 40px;
+    }
+}
+
+
+
+
+
+@media (min-width: 700px) {
+    header p {
+        margin: 20px 0 0 50px;
+    }
+
+    #repo-form > input {
+        width: 320px;
+    }
+
+    .content-result > header {
+        padding: 20px 50px 0 50px;
+    }
+
+    .content-result > header > img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .content-result > p {
+        text-align: center;
+    }
+    
+}
+
+
+
+
+
+@media (min-width: 1020px) {
+    header p {
+        font-size: 2.7rem;
+        line-height: 35px;
+        margin: 20px 0 0 70px;
+    }
+
+    .result > .content-result {
+        margin-top: 40px;
+    }
+
+    .result > .content-result:nth-child(1) {
+        margin-top: 20px;
+    }
+
+    .content-result > header > img {
+        width: 90px;
+        height: 90px;
+    }
+    
+}
+
+
+
+
+
+@media (min-width: 1500px) {
+    :root {
+        font-size: 70%;
+    }
+
+    header p {
+        margin: 20px 0 0 190px;
+        line-height: 40px;
+    }
+}

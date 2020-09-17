@@ -1,0 +1,36 @@
+:root {
+    font-size: 60%;
+
+    --background: #F0F0F7;
+    --header: #833471;
+    --header-text: #dcdde1;
+    --logo: #fff;
+    --button-primary-background: #333;
+    --button-primary-text: #dcdde1;
+    --content-background: #fff;
+    --content-img: #dcdde1;
+    --light-shadow: rgba(0, 0, 0, 0.1);
+    --shadow: rgba(0, 0, 0, 0.2);
+    --repository-name: #222;
+    --content-text: #282038;
+    --color-box-footer: #fafafc;
+    --button-secondary-text: #2ecc71;
+    --button-secondary-border: #2ecc71;
+    --button-linkIcon-hover: #fff;
+    --footer: #2d2d2d;
+    --footer-text: #dcdde1;
+    --button-box-info: #3f63da;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+input,
+button {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.5rem;
+}
