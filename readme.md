@@ -1,9 +1,9 @@
 <h1 align="center">Repo Search</h1>
 
 <div align="center">
-    <img src="show/desktop.gif" alt="Desktop" width="400px">
-    <img src="show/tablet.gif" alt="Tablet" width=270px>
+   <img src="show/tablet.gif" alt="Tablet" width=270px>
     <img src="show/mobile.gif" alt="Mobile" width=150px>
+    <img src="show/desktop.gif" alt="Desktop" width="380px">
 </div>
 
 ---
