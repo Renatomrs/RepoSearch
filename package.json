@@ -21,6 +21,7 @@
     "start": "node src/main.js"
   },
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "http-server": "^0.12.3"
   }
 }
