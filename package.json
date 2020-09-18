@@ -17,7 +17,8 @@
   },
   "scripts": {
     "dev": "webpack-dev-server --mode=development",
-    "build": "webpack --mode=production"
+    "build": "webpack --mode=production",
+    "start": "node src/main.js"
   },
   "dependencies": {
     "axios": "^0.19.2"
