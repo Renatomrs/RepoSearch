@@ -14,7 +14,7 @@ This application is a simple **front-end page** that searches for repositories u
 
 This project was inspired by the Rocketseat study platform.
 
-[check this out]() on your mobile or computer.
+[check this out](https://repositorysearch.herokuapp.com/) on your mobile or computer.
 
 ## Technologies
 
@@ -29,13 +29,12 @@ Building
 ---
 
 ````
-step 1 Download the clone
+step 1: Add the clone
 
-step 2 Access cd folder name
+step 2: Access cd folder name
 
-step 3 type yarn dev to start
+step 3: Type yarn dev to start
 
 ````
 ---
-
 Developed by - Renato Souza.
