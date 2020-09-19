@@ -5,8 +5,7 @@
 
  #app > header {
     width: 100%;
-    height: 220px;
-    position: relative;
+    padding: 0 0 1px 0;
     background-color: var(--header);
 }
 
@@ -27,25 +26,22 @@ nav > #logo {
 }
 
 header p {
-    font: 500 2.3rem Poppins; 
+    font: 500 2.2rem Poppins; 
     color: var(--header-text);
     text-align: left;
     line-height: 32px;
-    margin: 20px 0 0 22px;
+    margin: 22px 0 0 22px;
 }
 
 header > .search {
     width: 90%;
-    height: 90px;
+    max-width: 500px;
+    height: 47px;
     display: flex;
     flex-direction: column;
-    padding: 3px;
-    margin: 0 auto;
-    position: absolute;
-    bottom: -42px;
-    right: 0;
-    left: 0;
-    padding: 4px;
+    margin: 20px auto;
+    border: 0.2rem solid #dcdde1;
+    border-radius: 32px;
 }
 
 .search > #repo-form {
@@ -53,44 +49,50 @@ header > .search {
     height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 #repo-form > input {
-    width: 220px;
-    min-width: 120px;
-    height: 50px;
+    width: 425px;
+    min-width: 90px;
+    height: 100%;
     font-size: 1.6rem;
-    text-align: center;
+    text-align: left;
+    appearance: none;
+    outline: none;
     border: 0;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    background-color: transparent;
+    color: #fff;
+    padding: 0 0 0 9px;
 }
 
 #repo-form > button {
-    width: 90px;
     min-width: 70px;
-    height: 50px;
+    height: 100%;
     font-size: 1.7rem;
-    outline: none;
-    border: 0;
+    appearance: none;
     outline: none;
     cursor: pointer;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border: 0;
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
     background-color: var(--button-primary-background);
     color: var(--button-primary-text);
 }
 
+#repo-form > button:hover {
+    background-color: var(--light-shadow);
+}
+
 #app > .loading {
     width: 100%;
-    height: 35px;
+    height: 25px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 9px 0 0 0;
 }
 
 .loading > #loadingContainer {
@@ -100,7 +102,7 @@ header > .search {
 }
 
 #loadingContainer > #loadingIcon {
-    width: 50px;
+    width: 40px;
 }
 
 #app > .result {
@@ -135,7 +137,7 @@ header > .search {
     width: 70px;
     max-width: 100%;
     height: 70px;
-    size: cover;
+    background-size: cover;
     border-radius: 50%;
     border: 5px solid #dcdde1;
     box-shadow: 1px 2px 4px var(--content-box-shadow);
@@ -170,7 +172,7 @@ header > .search {
 .content-result > footer > #linkIcon {
     text-decoration: none;
     padding: 9px 20px;
-    border: 0.3rem solid var(--button-secondary-border);
+    border: 0.2rem solid var(--button-secondary-border);
     border-radius: 8px;
     color: var(--button-secondary-text);
     font-size: 1.7rem;
@@ -201,7 +203,7 @@ header > .search {
 #container-popup-info > #box-info {
     width: 90%;
     max-width: 440px;
-    height: 270px;
+    height: 240px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -226,7 +228,7 @@ header > .search {
 
 #box-info > #btn-box-info {
     width: 100px;
-    height: 50px;
+    height: 47px;
     font: 1.9rem Poppins;
     background-color: var(--button-box-info);
     color: #fff;

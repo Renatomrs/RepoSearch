@@ -1,25 +1,8 @@
-@media (min-width: 500px) {
-    #container-popup-info > #box-info {
-        height: 250px;
-        padding: 0 50px;
-    }
-
-    #box-info > #btn-box-info {
-        height: 40px;
-    }
-}
-
-
-
-
+/* Tablet */
 
 @media (min-width: 700px) {
     header p {
         margin: 20px 0 0 50px;
-    }
-
-    #repo-form > input {
-        width: 320px;
     }
 
     .content-result > header {
@@ -40,11 +23,12 @@
 
 
 
+/* Desktop */
 
 @media (min-width: 1020px) {
     header p {
         font-size: 2.7rem;
-        line-height: 35px;
+        line-height: 37px;
         margin: 20px 0 0 70px;
     }
 
@@ -65,7 +49,7 @@
 
 
 
-
+/* Large screen */
 
 @media (min-width: 1500px) {
     :root {
