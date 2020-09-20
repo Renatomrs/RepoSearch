@@ -6,8 +6,8 @@
     }
 
     .content-result > header > img {
-        width: 80px;
-        height: 80px;
+        width: 90px;
+        height: 90px;
     }
 
     .content-result > p {
@@ -15,7 +15,6 @@
     }
     
 }
-
 
 
 
@@ -28,11 +27,6 @@
 
     .result > .content-result:nth-child(1) {
         margin-top: 20px;
-    }
-
-    .content-result > header > img {
-        width: 100px;
-        height: 100px;
     }
 
 }
