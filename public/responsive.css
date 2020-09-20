@@ -1,10 +1,6 @@
 /* Tablet */
 
 @media (min-width: 700px) {
-    header p {
-        margin: 20px 0 0 50px;
-    }
-
     .content-result > header {
         padding: 20px 50px 0 50px;
     }
@@ -26,12 +22,6 @@
 /* Desktop */
 
 @media (min-width: 1020px) {
-    header p {
-        font-size: 2.7rem;
-        line-height: 37px;
-        margin: 20px 0 0 70px;
-    }
-
     .result > .content-result {
         margin-top: 40px;
     }
@@ -43,6 +33,10 @@
     .content-result > header > img {
         width: 90px;
         height: 90px;
+    }
+
+    .content-result > footer > #linkIcon {
+        border: 0.3rem solid var(--button-secondary);
     }
     
 }
@@ -56,8 +50,4 @@
         font-size: 70%;
     }
 
-    header p {
-        margin: 20px 0 0 190px;
-        line-height: 40px;
-    }
 }

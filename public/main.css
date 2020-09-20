@@ -1,12 +1,13 @@
 #app {
     min-height: 100vh;
-    background-color: var(--background);
+    background-color: var(--primary);
 }
 
  #app > header {
     width: 100%;
     padding: 0 0 1px 0;
-    background-color: var(--header);
+    background-color: var(--secondary);
+    box-shadow: 1px 2px 9px var(--shadow);
 }
 
 header > nav {
@@ -14,34 +15,22 @@ header > nav {
     height: 60px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    background-color: var(--light-shadow);
 }
 
 nav > #logo {
-    font-size: 1.7rem;
-    color: var(--logo);
+    font: 1.9rem Poppins;
+    color: var(--primary);
     letter-spacing: 2.7px;
-}
-
-header p {
-    font: 500 2.2rem Poppins; 
-    color: var(--header-text);
-    text-align: left;
-    line-height: 32px;
-    margin: 22px 0 0 22px;
 }
 
 header > .search {
     width: 90%;
     max-width: 500px;
-    height: 47px;
-    display: flex;
-    flex-direction: column;
-    margin: 20px auto;
-    border: 0.2rem solid #dcdde1;
-    border-radius: 32px;
+    height: 50px;
+    border-radius: 8px;
+    margin: 30px auto 25px auto;
 }
 
 .search > #repo-form {
@@ -54,7 +43,7 @@ header > .search {
 }
 
 #repo-form > input {
-    width: 425px;
+    width: 430px;
     min-width: 90px;
     height: 100%;
     font-size: 1.6rem;
@@ -62,11 +51,10 @@ header > .search {
     appearance: none;
     outline: none;
     border: 0;
-    border-top-right-radius: 32px;
-    border-bottom-right-radius: 32px;
-    background-color: transparent;
-    color: #fff;
-    padding: 0 0 0 9px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: var(--secondary-text);
+    padding: 0 0 0 14px;
 }
 
 #repo-form > button {
@@ -77,14 +65,15 @@ header > .search {
     outline: none;
     cursor: pointer;
     border: 0;
-    border-top-left-radius: 32px;
-    border-bottom-left-radius: 32px;
-    background-color: var(--button-primary-background);
-    color: var(--button-primary-text);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: var(--primary);
+    color: var(--secondary-text);
 }
 
 #repo-form > button:hover {
-    background-color: var(--light-shadow);
+    background-color: var(--button-primary-hover);
+    color: var(--primary);
 }
 
 #app > .loading {
@@ -139,20 +128,20 @@ header > .search {
     height: 70px;
     background-size: cover;
     border-radius: 50%;
-    border: 5px solid #dcdde1;
-    box-shadow: 1px 2px 4px var(--content-box-shadow);
+    border: 5px solid var(--primary);
+    box-shadow: 0px 5px 9px 0px var(--shadow);
     background-color: var(--content-img);
 }
 
 .content-result > header > span {
     font-size: 1.9rem;
-    color: var(--repository-name);
+    color: var(--primary-text);
     margin-left: 25px;
 }
 
 .content-result > p {
     font-size: 1.6rem;
-    color: var(--content-text);
+    color: var(--secondary-text);
     padding: 9px 20px 25px 20px;
 }
 
@@ -165,22 +154,22 @@ header > .search {
     align-items: center;
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px;
-    background-color: var(--color-box-footer);
+    background-color: var(--box-footer);
     padding: 14px 0;
 }
 
 .content-result > footer > #linkIcon {
     text-decoration: none;
     padding: 9px 20px;
-    border: 0.2rem solid var(--button-secondary-border);
+    border: 0.2rem solid var(--button-secondary);
     border-radius: 8px;
-    color: var(--button-secondary-text);
+    color: var(--button-secondary);
     font-size: 1.7rem;
     font-weight: bold;
 }
 
 .content-result > footer > #linkIcon:hover {
-    background-color: var(--button-linkIcon-hover);
+    background-color: var(--primary);
 }
 
 #linkIcon  > #externalLinkIcon {
@@ -197,7 +186,7 @@ header > .search {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: var(--light-shadow);
+    background-color: var(--shadow);
 }
 
 #container-popup-info > #box-info {
@@ -208,9 +197,9 @@ header > .search {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
+    background-color: var(--primary);
     border-radius: 9px;
-    box-shadow: 0px 5px 9px 0px var(--shadow);
+    box-shadow: 0px 5px 9px 0px var(--light-shadow);
     padding: 0 20px;
     z-index: 2000;
 }
@@ -221,17 +210,17 @@ header > .search {
 
 #box-info > #text-info {
     font-size: 1.9rem;
-    color: #333;
+    color: var(--secondary-text);
     margin-bottom: 9px;
     text-align: center;
 }
 
 #box-info > #btn-box-info {
-    width: 100px;
-    height: 47px;
+    width: 90px;
+    height: 40px;
     font: 1.9rem Poppins;
     background-color: var(--button-box-info);
-    color: #fff;
+    color: var(--primary);
     border: none;
     border-radius: 8px;
     letter-spacing: 2px;
@@ -249,5 +238,5 @@ footer {
 }
 
 footer > span {
-    color: var(--footer-text);
+    color: var(--primary);
 }

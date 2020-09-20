@@ -1,25 +1,18 @@
 :root {
     font-size: 60%;
 
-    --background: #F0F0F7;
-    --header: #833471;
-    --header-text: #dcdde1;
-    --logo: #fff;
-    --button-primary-background: none;
-    --button-primary-text: #dcdde1;
-    --content-background: #fff;
+    --primary: #fff;
+    --secondary: #673AB7;
+    --button-primary-hover: #512DA8;
     --content-img: #dcdde1;
-    --light-shadow: rgba(0, 0, 0, 0.1);
-    --shadow: rgba(0, 0, 0, 0.2);
-    --repository-name: #222;
-    --content-text: #282038;
-    --color-box-footer: #fafafc;
-    --button-secondary-text: #2ecc71;
-    --button-secondary-border: #2ecc71;
-    --button-linkIcon-hover: #fff;
+    --primary-text: #222;
+    --secondary-text: #282038;
+    --box-footer: #fafafc;
+    --button-secondary: #777;
     --footer: #2d2d2d;
-    --footer-text: #dcdde1;
     --button-box-info: #3f63da;
+    --shadow: rgba(0, 0, 0, 0.5);
+    --light-shadow: rgba(0, 0, 0, 0.2);
 }
 
 * {
