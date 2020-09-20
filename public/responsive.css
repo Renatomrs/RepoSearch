@@ -31,14 +31,10 @@
     }
 
     .content-result > header > img {
-        width: 90px;
-        height: 90px;
+        width: 100px;
+        height: 100px;
     }
 
-    .content-result > footer > #linkIcon {
-        border: 0.3rem solid var(--button-secondary);
-    }
-    
 }
 
 
