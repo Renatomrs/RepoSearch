@@ -14,13 +14,14 @@ This application is a simple **front-end page** that searches for repositories u
 
 This project was inspired by the Rocketseat study platform.
 
-[check this out](https://repositorysearch.herokuapp.com/) on your mobile or computer.
+[Check this out](https://repositorysearch.herokuapp.com/) on your mobile or computer.
 
 ## Technologies
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Yarn](https://yarnpkg.com/)
 - [Axios](https://github.com/axios/axios)
 - [Babel](https://babeljs.io/)
 - [WebPack](https://webpack.js.org/)
@@ -29,9 +30,9 @@ Building
 ---
 
 ````
-step 1: Add the clone
+step 1: Get the clone
 
-step 2: Access cd folder name
+step 2: Access the project name
 
 step 3: Type yarn dev to start
 

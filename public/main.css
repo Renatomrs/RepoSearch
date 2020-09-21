@@ -1,6 +1,6 @@
 #app {
     min-height: 100vh;
-    background-color: var(--primary);
+    background-color: var(--background);
 }
 
  #app > header {
@@ -20,7 +20,7 @@ header > nav {
 }
 
 nav > #logo {
-    font: 2.2rem Poppins;
+    font: 2.0rem Poppins;
     color: var(--primary);
     letter-spacing: 2.7px;
 }
@@ -102,7 +102,7 @@ header > .search {
 .result > .content-result {
     width: 90%;
     max-width: 590px;
-    background-color: var(--content-background);
+    background-color: var(--primary);
     border-radius: 9px;
     box-shadow: 1px 2px 4px var(--shadow);
     margin: 20px auto;
@@ -190,7 +190,7 @@ header > .search {
 
 #container-popup-info > #box-info {
     width: 90%;
-    max-width: 440px;
+    max-width: 400px;
     height: 240px;
     display: flex;
     flex-direction: column;
@@ -204,7 +204,7 @@ header > .search {
 }
 
 #box-info > #info-icon {
-    width: 90px;
+    width: 107px;
 }
 
 #box-info > #text-info {
@@ -215,9 +215,9 @@ header > .search {
 }
 
 #box-info > #btn-box-info {
-    width: 90px;
+    width: 80px;
     height: 40px;
-    font: 1.9rem Poppins;
+    font: 1.7rem Poppins;
     background-color: var(--button-box-info);
     color: var(--primary);
     border: none;
