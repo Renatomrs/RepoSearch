@@ -24,7 +24,7 @@ This project was inspired by the Rocketseat study platform.
 - [Yarn](https://yarnpkg.com/)
 - [Axios](https://github.com/axios/axios)
 - [Babel](https://babeljs.io/)
-- [WebPack](https://webpack.js.org/)
+- [Webpack](https://webpack.js.org/)
 
 Building
 ---
