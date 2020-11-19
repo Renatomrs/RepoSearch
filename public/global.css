@@ -1,20 +1,15 @@
 :root {
     font-size: 60%;
     
-    --background: #ecf0f1; 
     --primary: #fff;
+    --container: #f5f6fa;
+    --border: #ddd;
     --secondary: #673AB7;
-    --button-primary-hover: #512DA8;
-    --light: #dcdde1;
-    --primary-text: #222;
-    --secondary-text: #282038;
-    --box-footer: #fafafc;
+    --primary-text: #4d4d4d;
+    --secondary-text: #777;
     --button-secondary: #2ecc71;
-    --footer: #2d2d2d;
     --button-box-info: #3f63da;
     --dark-shadow: rgba(0, 0, 0, 0.5);
-    --shadow: rgba(0, 0, 0, 0.3);
-    --light-shadow: rgba(0, 0, 0, 0.2);
 }
 
 * {
@@ -24,8 +19,12 @@
 }
 
 body,
-input,
-button {
+input {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 1.5rem;
+}
+
+h1, h2, button, a, span, #logo  {
+    font-family: 'Poppins',  sans-serif;
+    letter-spacing: 1px;
 }
